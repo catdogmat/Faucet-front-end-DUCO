@@ -237,7 +237,7 @@ div {
     --size: 15;
     --upp: 1vmin;
     --unit: calc((var(--size) / 100) * var(--upp));
-    --message: "🙂 Hello! ✨ Welcome to DUINOCOIN FAUCET !✨";
+    --message: "Hello! Welcome to Sinister Faucet.";
     --msg-transform: uppercase;
     --msg-indent-start: 110%;
     --msg-indent-end: -110%;
