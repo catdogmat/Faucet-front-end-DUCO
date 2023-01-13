@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./img/favicon.ico">
-    <title>DUCO Faucet🚀</title>
+    <title>Sinister Faucet</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" crossorigin="anonymous" />
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -26,15 +26,14 @@
 
     <div class="grid-container">
         <div class="item1">
-            <h1 class="title">DUINOCOIN FAUCET</h1>
-            <img class="img" src="./img/duco.png" alt="Duco" width="100" height="auto"><br>
+            <h1 class="title">SINISTER FAUCET</h1>
             <form>
                 <input type="text" class="input" id="ducoUsername" name="firstname" placeholder="Your duinocoin wallet username" required="required">
                 <button type="submit" id="getDucosButton" onclick="checkRecaptcha()">Get DUCO's</button>
                 <div class="g-recaptcha captcha" data-sitekey="6LeoJ6obAAAAAE6lMnUtdfKfgpa3inD-rsxd4VVV"></div>
             </form id="formUser">
             <div id="spinner">
-                <p>Estimated amount that will be sent to your account will be displayed after submitting your username.</p>
+                <p>You will get about {{ duinocoin }} Duco sent to your account.</p>
             </div>
         </div>
 
@@ -45,26 +44,14 @@
         <div class="item3">
 
             <div class="links">
-
-                <img class="img" src="./img/duco-alt.png" alt="Duco" width="100" height="100"><br>
-                <h1 class="title">LINKS</h1>
-
-                <button class="btn" onclick="location.href='http://www.example.com'" type="button">
-             
-              <i class="fa fa-github fa-3x" aria-hidden="true"></i>
-            </button>
-
-                <button class="btn" onclick="location.href='http://www.example.com'" type="button">
-              <i class="fa fa-window-maximize fa-3x" aria-hidden="true"></i>   
-            </button>
-                <button class="btn" onclick="location.href='http://www.example.com'" type="button">
-              <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
-
-            </button>
-                <button class="btn" type="submit">
-              <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
-            </button>
-
+                <h1 class="title">TOP DONORS</h1>
+                <p>1. {{ don1 }}</p>
+                <p>2. {{ don2 }}</p>
+                <p>3. {{ don3 }}</p>
+                <p>4. {{ don4 }}</p>
+                <p>5. {{ don5 }}</p>
+                <button type="submit" id="getDucosButton">See all Donors</button>
+                <button type="submit" id="getDucosButton">Donate</button>
             </div>
 
         </div>
