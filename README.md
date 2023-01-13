@@ -1,3 +1,3 @@
-# Faucet-front-end-DUCO
-Front end for Duino coin faucet
-[link](https://catdogmat.github.io/Faucet-front-end-DUCO/)
+# Sinister Faucet
+A WIP high paying duino coin faucet based on NL647's Frontend\n
+[Link (WIP)](https://catdogmat.github.io/Sinister-Faucet/web/)
